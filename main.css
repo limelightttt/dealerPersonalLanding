@@ -10,7 +10,7 @@
 }
 
 section {
-  padding: 0 calc(10.9vw - 37px) calc(3.3vw + 48px);
+  padding: 0 calc(10.2vw - 26.6px) calc(3.2vw + 48px);
 }
 
 
@@ -33,15 +33,15 @@ section {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 0 calc(10.9vw - 37px) 27px;
+  padding: 0 calc(10.2vw - 26.6px) 27px;
 
 }
 
 header {
   display: flex;
-  padding: calc(1vw + 13.7px) 0;
+  padding: calc(0.8vw + 16px) 0;
   align-items: center;
-  margin-bottom: calc(-18.3vw + 373px);
+  margin-bottom: calc(-17.1vw + 356.6px);
 }
 
 .linesMob {
@@ -63,24 +63,23 @@ nav ul li {
 }
 
 .logo {
-  width: 93px;
-  margin-right: calc(36.2vw - 74px);
+  width: calc(2.1vw + 62.3px);
+  margin-right: calc(33.9vw - 40px);
 }
 
 .navPannel {
   display: flex;
-  gap: 20px;
+  gap: calc(0.6vw + 12px);
 }
 
 
 #sale {
-  width: calc(48vw + 173.5px);
-  font-size: calc(3.7vw + 13.2px);
+  font-size: calc(3.3vw + 18px);
   font-weight: 400;
   text-transform: uppercase;
   line-height: 100%;
   color: white;
-  margin-bottom: calc(-5.1vw + 96px);
+  margin-bottom: calc(-4.8vw + 91px);
 }
 
 #catalog {
@@ -91,13 +90,19 @@ nav ul li {
   color: rgba(94, 94, 94, 1);
   font-size: 13px;
   font-weight: 370;
-  margin-bottom: calc(9.2vw + 127.4px);
+  margin-bottom: calc(8.6vw + 136px);
   cursor: pointer;
 }
 
 .line {
   display: flex;
   justify-content: center;
+}
+
+.line img{
+  
+  width: calc(3.7vw + 346px);
+  
   margin-bottom: 35px;
 }
 
@@ -146,7 +151,7 @@ nav ul li {
 .mostPopular {
   font-size: calc(1.2vw + 23px);
   font-weight: 400;
-  margin-bottom: calc(0.7vw + 10px);
+  margin-bottom: calc(0.6vw + 11px);
 }
 
 .sneakers {
@@ -155,19 +160,17 @@ nav ul li {
   justify-content: center;
 }
 
-.thirdMainDiv {
-  width: calc(10.9vw + 127px);
-}
+
 
 .thirdSectionPhotos {
-  width: calc(7.9vw + 140px);
+  width: calc(7.4vw + 147px);
 }
 
 .firstSneakers {
   display: flex;
   font-size: calc(0.3vw + 11px);
   text-align: center;
-  gap: calc(1vw + 6px);
+  gap: calc(0.9vw + 7px);
 }
 
 .firstSneakers span{
@@ -178,7 +181,7 @@ nav ul li {
   display: flex;
   font-size: 15px;
   text-align: center;
-  gap: calc(1vw + 6px);
+  gap: calc(0.9vw + 7px);
 }
 
 .secondSneakers span{
@@ -200,7 +203,7 @@ nav ul li {
   display: flex;
   font-size: calc(0.3vw + 11px);
   text-align: center;
-  gap: calc(1vw + 6px);
+  gap: calc(0.9vw + 7px);
 }
 
 .firstSneakersCategory span{
@@ -211,7 +214,7 @@ nav ul li {
   display: flex;
   font-size: calc(0.3vw + 11px);
   text-align: center;
-  gap: calc(1vw + 6px);
+  gap: calc(0.9vw + 7px);
 }
 
 .secondSneakersCategory span{
@@ -219,20 +222,20 @@ nav ul li {
 }
 
 .brandNew {
-  font-size: calc(1.3vw + 21px);
+  font-size: calc(1.2vw + 22px);
   font-weight: 400;
-  margin-bottom: calc(0.7vw + 10px);
+  margin-bottom: calc(0.6vw + 11px);
 }
 
 .newHot {
   display: flex;
-  margin-bottom: calc(0.7vw + 10px);
+  margin-bottom: calc(0.6vw + 11px);
 }
 
 .mainDiv {
   display: flex;
-  gap: calc(1.2vw + 5px);
-  font-size: calc(1.9vw + 13px);
+  gap: calc(1.1vw + 6px);
+  font-size: calc(1.8vw + 14px);
   color: rgba(255, 255, 255, 1);
   
 }
@@ -241,7 +244,7 @@ nav ul li {
 .allPhotos {
   display: grid;
   grid-template-columns: 1fr 1fr auto; 
-  gap: calc(1vw + 6px);
+  gap: calc(1.1vw + 6px);
 }
 
 .photoContainer {
@@ -300,9 +303,9 @@ nav ul li {
 }
 
 .walk {
-  font-size: calc(1.3vw + 21px);
+  font-size: calc(1.2vw + 22px);
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: calc(0.6vw + 10px);
 
 }
 
@@ -312,11 +315,11 @@ nav ul li {
 
 .walkItems {
   display: flex;
-  font-size: 15px;
+  font-size: calc(0.3vw + 11px);
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: calc(-0.3vw + 24px);
 }
 
 
@@ -327,12 +330,12 @@ nav ul li {
 
 .firstWalk {
   display: flex;
-  gap: 60px;
+  gap: calc(0.9vw + 6.6px);
 }
 
 .secondWalk {
   display: flex;
-  gap: 60px;
+  gap: calc(0.9vw + 6.6px);
 }
 
 .lookAt {
@@ -352,7 +355,9 @@ nav ul li {
   margin-bottom: calc(5.7vw - 11.7px);
 }
 
-
+.imageContainer {
+  width: calc(4.4vw + 324px);
+}
 
 .nikeImages h3{
   color: white;
@@ -365,7 +370,7 @@ nav ul li {
 
 .overlayText {
   position: absolute;
-  top: 475px; 
+  top: 420px; 
   left: 70px; 
   transform: translate(-50%, -50%); 
   padding: 10px 20px; 
@@ -388,7 +393,7 @@ nav ul li {
 
 .overlayTextThird {
   position: absolute;
-  top: 475px; 
+  top: 420px; 
   left: 75px; 
   transform: translate(-50%, -50%); 
   padding: 10px 20px; 
@@ -426,9 +431,9 @@ nav ul li {
 }
 
 .coupleText {
-  font-size: calc(1.3vw + 21px);
+  font-size: calc(1.2vw + 22px);
   font-weight: 400;
-  margin-bottom: calc(4.5 + 7px);
+  margin-bottom: calc(4.2vw + 12px);
 }
 
 .coupleElements {
@@ -583,18 +588,10 @@ nav ul li {
     padding: 5px; 
   }
 
-  .sixthSection {
-    width: 433px; 
-    height: 408px;
-    background-image: url(./img/Rectangle\ 74.png);
-  }
-
-  
-
-
   #buttonCategory {
     display: none; 
   }
+
   #buttonCategorySecond {
     display: none; 
   }
@@ -620,5 +617,16 @@ nav ul li {
 
 }
 
+@media (max-width: 360px) {
 
+  .sixthSection {
+    width: 360px; 
+    height: 360px;
+    background-image: url(./img/Rectangle\ 74.png);
+  }
+
+  .logo {
+    margin-left: -30px;
+  }
+}
 
