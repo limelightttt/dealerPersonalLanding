@@ -7,6 +7,7 @@
   text-decoration: none;
   font-family: 'Inter', sans-serif;
   color: rgba(0, 0, 0, 1);
+  font-weight: 400;
 }
 
 section {
@@ -193,6 +194,11 @@ nav ul li {
   font-size: calc(0.5vw + 8px);
 }
 
+.radioMob {
+  display: none;
+  display: flex;
+}
+
 .sneakersCategory {
   display: flex;
   flex-wrap: wrap;
@@ -296,7 +302,6 @@ nav ul li {
   grid-column: 3; 
 }
 
-
 .walkText {
   display: flex;
   margin-bottom: 75px;
@@ -306,7 +311,10 @@ nav ul li {
   font-size: calc(1.2vw + 22px);
   font-weight: 400;
   margin-bottom: calc(0.6vw + 10px);
+}
 
+#walkButtonTwo {
+  margin-left: 890px;
 }
 
 #walkButton {
@@ -322,8 +330,6 @@ nav ul li {
   gap: calc(-0.3vw + 24px);
 }
 
-
-
 .walkItems span{
   font-weight: 800;
 }
@@ -338,100 +344,103 @@ nav ul li {
   gap: calc(0.9vw + 6.6px);
 }
 
-.lookAt {
+
+
+.lookAtTitle {
+  font-size: calc(1.2vw + 22.7px);
+  margin-bottom: calc(1.3vw + 7.3px);
   text-align: center;
-  margin-bottom: 13px;
 }
 
-.lookAt h2{
-  font-size: calc(1.3vw +21px);
-  font-weight: 400;
-}
-
-.nikeIcons {
+.nikeTitle {
   display: flex;
-  justify-content: center;
   gap: 50px;
-  margin-bottom: calc(5.7vw - 11.7px);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: calc(5.5vw - 7.7px);
 }
 
-.imageContainer {
-  width: calc(4.4vw + 324px);
+  #nikeLogo {
+    width: calc(6.4vw + 48px);
+  }
+
+.nikeCardsFirst {
+  background-image: url(./img/slidenikeFirst.svg);
+  width: 387px;
+  height: 534px;
+  border-radius: 15px;
+  padding: 29px 28px 19px;
 }
 
-.nikeImages h3{
+.nikeCardsFirst h3 {
   color: white;
   font-size: 23px;
-  width: 125px;
   text-transform: uppercase;
+  position: relative;
+  bottom: -420px;
+}
 
+.nikeCardsSecond {
+  background-image: url(./img/slidenikeSecond.svg);
+  width: 387px;
+  height: 534px;
+  border-radius: 15px;
+  padding: 29px 28px 19px;
+}
+
+.nikeCardsSecond h3 {
+  color: white;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.nikeCardsThird {
+  background-image: url(./img/slidenikeThird.svg);
+  width: 387px;
+  height: 534px;
+  border-radius: 15px;
+  padding: 29px 28px 19px;
+}
+
+.nikeCardsThird h3 {
+  color: white;
+  font-size: 23px;
+  text-transform: uppercase;
+  position: relative;
+  bottom: -420px;
 }
 
 
-.overlayText {
-  position: absolute;
-  top: 420px; 
-  left: 70px; 
-  transform: translate(-50%, -50%); 
-  padding: 10px 20px; 
-  border-radius: 5px; 
-  font-size: 20px; 
-  text-align: center; 
-}
 
-
-.overlayTextSecond {
-  position: absolute;
-  top: 50px; 
-  left: 75px; 
-  transform: translate(-50%, -50%); 
-  padding: 10px 20px; 
-  border-radius: 5px; 
-  font-size: 20px; 
-  text-align: center; 
-}
-
-.overlayTextThird {
-  position: absolute;
-  top: 420px; 
-  left: 75px; 
-  transform: translate(-50%, -50%); 
-  padding: 10px 20px; 
-  border-radius: 5px; 
-  font-size: 20px; 
-  text-align: center; 
-}
-
-
-.sixthSection {
-  background-image: url(./img/Rectangle\ 46.png);
+.blondGirl {
+  background-image: url(./img/blondgirlPK.svg);
   background-position: center;
-  background-size: cover;  
-  margin-bottom: 82px;
+  background-size: cover;
+  width: calc(79.9vw + 52.3px);
+  height: calc(7.1vw + 382.3px);
+  padding: calc(2.5vw + 22px) calc(4.4vw + 1px) 42px;
+  margin-left: calc(10.2vw - 26.7px);
+  margin-right: calc(10.2vw - 26.7px);
+  margin-bottom: calc(1.9vw + 54px);
+  border-radius: 20px;
 }
 
-
-.special {
-  margin-bottom: 239px;
-  width: calc(24.8vw + 243px);
-}
-
-.special p {
-  padding: calc(2.8vw + 18px) 0;
-  font-size: calc(0.6vw + 17px);
+.blondGirlText {
+  font-size: calc(0.6vw + 18px);
   color: white;
+  margin-bottom: calc(-4.6vw + 305.7px);
 }
 
-
-.bestPriceWaranty p {
+.blondGirlTitle {
+  width: calc(22.2vw + 250px);
+  font-size: calc(3.1vw + 16px);
   color: white;
-  width: calc(24.8vw + 243px);
-  font-size: calc(3.3vw + 13px);
-  
+  line-height: 100%;
 }
+
 
 .coupleText {
-  font-size: calc(1.2vw + 22px);
+  font-size: calc(1.5vw + 18.7px);
   font-weight: 400;
   margin-bottom: calc(4.2vw + 12px);
 }
@@ -439,6 +448,7 @@ nav ul li {
 .coupleElements {
   display: flex;
   justify-content: space-between;
+
 }
 .calcButton {
   display: flex;
@@ -473,57 +483,299 @@ nav ul li {
   margin-top: -30px;
 }
 
-.radioPrice p{
+.radioPrice p {
   margin-bottom: 25px;
 
 }
 
 
 
+.specialCategoryTitle {
+  font-size: 40px;
+  margin-bottom: 41px;
+  color: rgba(62, 62, 62, 1);
+}
+
+.dealerPreLoved {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px 19px;
+  justify-content: center;
+}
+
+.dealerCard {
+  padding: calc(2vw + 32.7px) calc(3vw + 12.3px) calc(1.1vw + 35px);
+  background-image: url(./img/nikeBeige.svg);
+  background-position: center;
+  background-size: cover;
+  width: calc(23.1vw + 256.7px);
+  height: calc(13.7vw + 287.7px);
+  border-radius: calc(0.4vw + 7.7px);
+}
+
+.dealerCard p {
+  font-size: calc(0.7vw + 15.3px);
+  margin-bottom: calc(2.9vw + 60.7px);
+  color: white;
+}
+.dealerCard h4 {
+  font-size: calc(1.1vw + 24px);
+  margin-bottom: calc(4.1vw + 83.3px);
+  color: white;
+}
+.dealerCard span {
+  font-size: calc(0.7vw + 15.3px);
+  color: white;
+  text-decoration: underline;
+}
+
+.preLovedCard {
+  padding: calc(2vw + 32.7px) calc(3vw + 12.3px) calc(1.1vw + 35px);
+  background-image: url(./img/preLovedGirl.svg);
+  background-position: center;
+  background-size: cover;
+  width: calc(23.1vw + 256.7px);
+  height: calc(13.7vw + 287.7px);
+  border-radius: calc(0.4vw + 7.7px);
+}
+
+.preLovedCard p {
+  font-size: calc(0.7vw + 15.3px);
+  margin-bottom: calc(2.9vw + 60.7px);
+  color: white;
+}
+.preLovedCard h4 {
+  font-size: calc(1.1vw + 24px);
+  margin-bottom: calc(4.1vw + 83.3px);
+  color: white;
+}
+.preLovedCard span {
+  font-size: calc(0.7vw + 15.3px);
+  color: white;
+  text-decoration: underline;
+}
+
+.sneakersFour {
+  background-image: url(./img/Rectangle\ 74.svg);
+  background-position: center;
+  background-size: cover;
+  width: calc(79.6vw + 53.3px);
+  margin-left: calc(10.2vw - 26.7px);
+  margin-right: calc(10.2vw - 26.7px);
+  margin-bottom: calc(1.7vw + 4px);
+  padding: calc(1.2vw + 28.7px) calc(1.9vw + 16.3px) calc(-0.2vw + 26.7px);
+  border-radius: 13px;
+}
+
+.sellCoupleTitle {
+  font-size: calc(1.2vw + 22.7px);
+  margin-bottom: calc(-0.6vw + 24.3px);
+  width: calc(24.1vw + 163.3px);
+  color: rgba(62, 62, 62, 1);
+  font-weight: 390;
+}
+
+.sellCoupleText {
+  font-size: 18px;
+  margin-bottom: 39px;
+  width: calc(11.1vw + 250px);
+  color: rgba(62, 62, 62, 1);
+}
+
+.greyButton {
+  background: linear-gradient(to right, rgba(9, 9, 9, 1), rgba(136, 131, 126, 1));
+  color: rgba(255, 255, 255, 1);
+  padding: 20px 40px;
+  font-size: 13px;
+  border-radius: 13px;
+  border: none;
+}
+
+.saleSevenProcent {
+  background-image: url(./img/Rectangle\ 75.svg);
+  background-position: center;
+  background-size: cover;
+  width: calc(79.6vw + 53.3px);
+  margin-left: calc(10.2vw - 26.7px);
+  margin-right: calc(10.2vw - 26.7px);
+  margin-bottom: calc(3.1vw + 33px);
+  padding: calc(1.2vw + 28.7px) calc(1.9vw + 16.3px) calc(1.3vw + 11.3px);
+  border-radius: 13px;
+}
+
+.saleTitle {
+  font-size: calc(1.2vw + 22.7px);
+  margin-bottom: calc(-4vw + 72.3px);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 390;
+}
+
+.saleText {
+  font-size: 18px;
+  margin-bottom: calc(4.9vw + 18.3px);
+  width: calc(18vw + 215.3px);
+  color: rgba(255, 255, 255, 1);
+}
+
+.subscribe {
+  display: flex;
+  gap: 7.5px;
+}
+
+.subscribe button {
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  padding: calc(0.6vw + 11px) calc(2.8vw + 20px);
+  font-size: 14px;
+  border-radius: 35px;
+  border: none;
+}
+
+.footerCatalog {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.footerCatalogList{
+  font-size: 16px;
+}
+
+.footerMenu {
+  font-size: 23px;
+  margin-bottom: 18px;
+
+}
+
+.footerMenuList ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerCatalogList ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerSupport {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.footerSupportList ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.lastFooterDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 54px;
+  
+}
+
+.footerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+  justify-content: center;
+  margin-bottom: 83px;
+  
+}
+
+.limitedText {
+  margin-bottom: 49px;
+  font-size: 15px;
+  color: rgba(123, 123, 123, 1);
+}
+
+.dealerLogoBlack {
+  margin-bottom: 41px;
+}
 
 
- 
+.lastFooterDiv p {
+  color: rgba(114, 114, 114, 1);
+}
+
+.planeImage {
+  margin-right: 13px;
+}
+
+.footerDivMobile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+  margin-bottom: 83px;
+}
+
+
+.footerCatalogMobileMainDiv {
+  display: flex;
+  margin-left: 20px;
+  gap: 60px;
+  justify-content: left;
+}
+
+.footerCatalogMobile {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.footerCatalogListMobile {
+  font-size: 16px;
+}
+
+.footerMenuMobile {
+  font-size: 23px;
+  margin-bottom: 18px;
+
+}
+
+.footerMenuListMobile ul li {
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.footerMenuListMobile img {
+  width: 26px;
+}
+
+.footerCatalogListMobile ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerSupportMobile {
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+.footerSupportListMobile ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footerSupportMobileMainDiv {
+  display: flex;
+  justify-content: left;
+  margin-right: 160px;
+}
 
 
 
+.lastFooterDivMobile {
+  justify-content: left;
+  gap: 30px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.lastFooterDivMobile ul li {
+  margin-bottom: 12px;
+  margin-left: 15px;
+  font-size: 16px;
+  color: rgba(114, 114, 114, 1);
+}
 
 
 
@@ -592,6 +844,28 @@ nav ul li {
     display: none; 
   }
 
+  .arrowsNike {
+    display: none;
+  }
+
+  .blondGirl {
+    background-image: url(./img/blondgirlMOB.svg);
+  }
+
+  .coupleElements {
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .radioMob {
+    justify-content: center;
+  }
+
+  .specialCategoryTitle {
+    display: none;
+  }
+
   #buttonCategorySecond {
     display: none; 
   }
@@ -600,33 +874,90 @@ nav ul li {
     display: none; 
   }
 
-  #arrowTwo, #arrowOne {
-    display: none;
-  }
-
-  #nike {
-    width: 71px;
-    height: 48px;
-  }
-
   .radioPrice {
     display: none;
   }
 
+  .categoryFeautures {
+    display: none;
+  }
 
+  .fiveSectionTwo {
+    display: none;
+  }
 
-}
-
-@media (max-width: 360px) {
-
-  .sixthSection {
-    width: 360px; 
-    height: 360px;
-    background-image: url(./img/Rectangle\ 74.png);
+  #walkButtonTwo {
+    display: none;
   }
 
   .logo {
     margin-left: -30px;
   }
+
+  .fiveSectionTwo {
+    display: none;
+  }
+
+  #walkButtonTwo {
+    display: none;
+  }
+
+  .greyButton {
+    background: black;
+    color: white;
+  }
+
+  .saleSevenProcent {
+    background-image: url(./img/Rectangle\ 109.svg);
+  }
+
+  #blackSubscribe {
+    background-color: black;
+    color: white;
+  }
+
+  .footerCatalogList,
+  .footerCatalog,
+  .footerMenuList,
+  .footerMenu,
+  .footerSupportList,
+  .footerSupport {
+    display: none;
+  }
+
+  .planeImage {
+    display: none;
+  }
+
+  .lastFooterDiv {
+    display: none;
+  }
+
+  .radioMob {
+    display: flex;
+  }
+
+  .firstSneakersCategory {
+    display: none;
+  }
+
 }
+
+@media (min-width: 450px) {
+  .footerCatalogListMobile,
+  .footerCatalogMobile,
+  .footerMenuListMobile,
+  .footerMenuMobile,
+  .footerSupportListMobile,
+  .footerSupportMobile {
+    display: none;
+  }
+
+  .lastFooterDivMobile {
+    display: none;
+  }
+
+
+}
+
 
