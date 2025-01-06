@@ -1,11 +1,12 @@
 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;                                               
   color: rgba(0, 0, 0, 1);
   font-weight: 400;
 }
@@ -14,6 +15,9 @@ section {
   padding: 0 calc(10.2vw - 26.6px) calc(3.2vw + 48px);
 }
 
+h1, h2, h3, h4 {
+  font-family: 'Manrope', sans-serif;
+}
 
 .price {
   display: flex;
@@ -713,9 +717,8 @@ nav ul li {
 
 .footerCatalogMobileMainDiv {
   display: flex;
-  margin-left: 20px;
   gap: 60px;
-  justify-content: left;
+
 }
 
 .footerCatalogMobile {
@@ -759,20 +762,18 @@ nav ul li {
 
 .footerSupportMobileMainDiv {
   display: flex;
-  justify-content: left;
   margin-right: 160px;
+  margin-bottom: 62px;
 }
 
 
 
 .lastFooterDivMobile {
-  justify-content: left;
   gap: 30px;
 }
 
 .lastFooterDivMobile ul li {
   margin-bottom: 12px;
-  margin-left: 15px;
   font-size: 16px;
   color: rgba(114, 114, 114, 1);
 }
@@ -939,6 +940,10 @@ nav ul li {
 
   .firstSneakersCategory {
     display: none;
+  }
+
+  .footerSupportListMobile {
+    
   }
 
 }
