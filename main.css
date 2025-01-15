@@ -1130,6 +1130,7 @@ input::placeholder {
   display: flex;
   margin-top: -60px;
   margin-right: 160px;
+  margin-left: 10px;
   margin-bottom: 62px;
 }
 
@@ -1137,6 +1138,7 @@ input::placeholder {
 
 .lastFooterDivMobile {
   gap: 30px;
+  margin-left: 10px;
 }
 
 .mobileLineFooter {
