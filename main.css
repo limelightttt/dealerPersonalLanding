@@ -12,7 +12,7 @@
 }
 
 section {
-  padding: 0 calc(10.2vw - 26.6px) calc(3.2vw + 48px);
+  padding: 0 calc(10.9vw - 36.8px) calc(3.2vw + 48px);
 }
 
 h1, h2, h3, h4 {
@@ -69,6 +69,12 @@ header {
 .linesMob {
   display: none;
   margin-right: 121px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
 }
 
 nav ul {
@@ -606,7 +612,7 @@ nav ul li {
     width: calc(6.4vw + 48px);
   }
 
-  
+
 .nikeCardsFirst {
   background-image: url(./img/slidenikeFirst.svg);
   background-repeat: no-repeat;
@@ -650,7 +656,7 @@ nav ul li {
 .secondNikeArrow {
   position: absolute;
   top: 3%;
-  left: 740px;
+  left: 730px;
 }
 
 .nikeCardsThird {
@@ -674,7 +680,7 @@ nav ul li {
 .thirdNikeArrow {
   position: absolute;
   top: 3%;
-  left: 1150px;
+  left: 1130px;
 }
 
 
@@ -1167,15 +1173,15 @@ input::placeholder {
   
 
   .linesMob {
-    display: flex;
+    display: block;
   }
 
-  nav ul {
+  nav {
     display: none;
   }
 
   .roundedImages {
-    border-color: orange; /* Оранжевая рамка */
+    border-color: orange;
   }
 
   #hearthPhoto {
@@ -1194,7 +1200,10 @@ input::placeholder {
     display: none;
   }
 
-  
+  .redNike {
+    order: 2;
+  }
+
 
   .allPhotos {
     grid-template-columns: 1fr 1fr; 
