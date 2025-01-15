@@ -307,7 +307,7 @@ nav ul li {
 
 .arrowSecond {
   position: absolute;
-  right: 105px; 
+  right: 123px; 
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
@@ -358,6 +358,7 @@ nav ul li {
 
 .secondSneakersCategory {
   display: flex;
+  justify-content: center;
   font-size: calc(0.3vw + 11px);
   text-align: center;
   gap: calc(0.9vw + 7px);
@@ -555,7 +556,7 @@ nav ul li {
 .arrowFive {
   position: absolute;
   right: 105px; 
-  top: 55%;
+  top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -563,7 +564,7 @@ nav ul li {
 .arrowThird {
   position: absolute;
   right: 105px; 
-  top: 55%;
+  top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -571,7 +572,7 @@ nav ul li {
 .arrowThirdMobile {
   position: absolute;
   right: 13px; 
-  top: 55%;
+  top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -739,7 +740,7 @@ nav ul li {
 .arrowFour {
   position: absolute;
   right: 103px; 
-  top: 50%;
+  top: 53%;
   transform: translateY(-50%);
   cursor: pointer;
 }
@@ -779,6 +780,7 @@ nav ul li {
 
 
 .sneakersCategoryTwo {
+  justify-content: center;
   display: flex;
   gap: 20px;
 }
@@ -1204,6 +1206,12 @@ input::placeholder {
     order: 2;
   }
 
+
+  
+
+  /* .sneakersCategoryTwo {
+    display: none;
+  } */
 
   .allPhotos {
     grid-template-columns: 1fr 1fr; 
