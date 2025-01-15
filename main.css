@@ -17,7 +17,10 @@ section {
 
 h1, h2, h3, h4 {
   font-family: 'Manrope', sans-serif;
+  
 }
+
+
 
 .price {
   display: flex;
@@ -30,7 +33,7 @@ h1, h2, h3, h4 {
   font-size: 14px;
   color: rgba(121, 121, 121, 1);
   text-transform: uppercase;
-  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .firstSection {
@@ -39,8 +42,22 @@ h1, h2, h3, h4 {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 calc(10.2vw - 26.6px) 27px;
-
 }
+
+
+.discountFirst {
+  background-image: url(./img/discountfirst.svg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: top 15px right;
+  width: 610px;
+}
+
+.discountFirstMobile {
+ position: absolute;
+ top: 450px;
+}
+
 
 header {
   display: flex;
@@ -79,6 +96,16 @@ nav ul li {
 
 
 #sale {
+  font-size: calc(3.3vw + 18px);
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 100%;
+  color: white;
+  margin-bottom: calc(-4.8vw + 91px);
+  
+}
+
+#saleTwo {
   font-size: calc(3.3vw + 18px);
   font-weight: 400;
   text-transform: uppercase;
@@ -159,17 +186,90 @@ nav ul li {
   margin-bottom: calc(0.6vw + 11px);
 }
 
+
+.hotAndHeartMobile {
+  display: flex;
+  padding: 12px 14px;
+  gap: 105px;
+}
+
+.hotAndHeartMobilePreloved {
+  display: flex;
+  padding: 12px 14px;
+  gap: 80px;
+}
+
 .sneakers {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: calc(1vw + 5.7px);
+
 }
 
+.allHearts {
+  width: calc(0.6vw + 8.5px);
+}
+
+.hotAndHeart {
+  display: flex;
+  gap: calc(6.5vw + 76px);
+  padding: 12px 14px;
+}
+
+.onlyHot {
+  width: calc(1.9vw + 32px);
+}
+
+.onlyHotTwo {
+  width: calc(2.5vw + 29px);
+}
+
+.thirdMainDiv {
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: rgba(214, 214, 214, 1);
+}
 
 
 .thirdSectionPhotos {
   width: calc(7.4vw + 147px);
 }
+
+.thirdSection {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: 120px; 
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrowMobile {
+  position: absolute;
+  right: 10px; 
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+} 
+
+.hotAndHeartExcept {
+  display: flex;
+  padding: 12px 14px;
+  gap: calc(3vw + 57px);
+}
+
+
+.hotAndHeartExceptTwo {
+  display: flex;
+  padding: 12px 14px;
+  gap: calc(6.9vw + 70px);
+}
+
+
 
 .firstSneakers {
   display: flex;
@@ -177,6 +277,7 @@ nav ul li {
   text-align: center;
   gap: calc(0.9vw + 7px);
 }
+
 
 .firstSneakers span{
   font-weight: 800;
@@ -193,6 +294,27 @@ nav ul li {
   font-weight: 800;
 }
 
+
+.smthnNew {
+  position: relative;
+}
+
+.arrowSecond {
+  position: absolute;
+  right: 105px; 
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrowSecondMobile {
+  position: absolute;
+  right: 13px; 
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
 .price {
   margin-top: calc(0.5vw + 8px);
   font-size: calc(0.5vw + 8px);
@@ -207,9 +329,17 @@ nav ul li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: calc(1vw + 5.7px);
 }
 
 .firstSneakersCategory {
+  display: flex;
+  font-size: calc(0.3vw + 11px);
+  text-align: center;
+  gap: calc(0.9vw + 7px);
+}
+
+.firstSneakersCategoryTwo {
   display: flex;
   font-size: calc(0.3vw + 11px);
   text-align: center;
@@ -240,6 +370,12 @@ nav ul li {
 .newHot {
   display: flex;
   margin-bottom: calc(0.6vw + 11px);
+}
+
+.sneakersBorder {
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: rgba(214, 214, 214, 1);
 }
 
 .mainDiv {
@@ -308,7 +444,7 @@ nav ul li {
 
 .walkText {
   display: flex;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
 }
 
 .walk {
@@ -317,12 +453,39 @@ nav ul li {
   margin-bottom: calc(0.6vw + 10px);
 }
 
+.pinkHot {
+  display: flex;
+  padding: 12px 14px;
+  gap: 100px;
+}
+
+.mobileProcents {
+  display: flex;
+  padding: 12px 14px;
+  gap: 100px;
+}
+
+.procentsMobile {
+  width: 45px;
+}
+
+.prelovedMobile {
+  display: flex;
+  gap: 70px;
+  padding: 12px 14px;
+
+}
+
+.mobilePreloved {
+  width: 73px;
+}
+
 #walkButtonTwo {
-  margin-left: 890px;
+  margin-left: 900px;
 }
 
 #walkButton {
-  margin-left: 621px;
+  margin-left: 640px;
 }
 
 .walkItems {
@@ -331,7 +494,7 @@ nav ul li {
   text-align: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: calc(-0.3vw + 24px);
+  gap: calc(1vw + 5.7px);
 }
 
 .walkItems span{
@@ -343,11 +506,69 @@ nav ul li {
   gap: calc(0.9vw + 6.6px);
 }
 
+.walkHeart {
+  display: flex;
+  padding: 12px 14px;
+}
+
+.walkHeart img {
+  width: calc(8.4vw + 134px);
+}
+
+.walkHeartOnly {
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: rgba(190, 190, 190, 1);
+}
+
+.walkNewLogo {
+  display: flex;
+  padding: 12px 14px;
+}
+
+.walkBorder {
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: rgba(190, 190, 190, 1);
+}
+
+
 .secondWalk {
   display: flex;
   gap: calc(0.9vw + 6.6px);
 }
 
+.fiveSection {
+  position: relative;
+}
+
+.fiveSectionTwo {
+  position: relative;
+}
+
+.arrowFive {
+  position: absolute;
+  right: 105px; 
+  top: 55%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrowThird {
+  position: absolute;
+  right: 105px; 
+  top: 55%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.arrowThirdMobile {
+  position: absolute;
+  right: 13px; 
+  top: 55%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
 
 
 .lookAtTitle {
@@ -364,17 +585,38 @@ nav ul li {
   margin-bottom: calc(5.5vw - 7.7px);
 }
 
-  #nikeLogo {
+.nikeLines {
+  display: flex;
+}
+
+.nikeRemove {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.lineRemove {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: -35px;
+}
+
+#nikeLogo {
     width: calc(6.4vw + 48px);
   }
 
+  
 .nikeCardsFirst {
   background-image: url(./img/slidenikeFirst.svg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
   width: 387px;
   height: 534px;
-  border-radius: 15px;
   padding: 29px 28px 19px;
+  
 }
+
 
 .nikeCardsFirst h3 {
   color: white;
@@ -384,11 +626,18 @@ nav ul li {
   bottom: -420px;
 }
 
+.firstNikeArrow {
+  position: absolute;
+  top: 3%;
+  left: 330px;
+}
+
 .nikeCardsSecond {
   background-image: url(./img/slidenikeSecond.svg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
   width: 387px;
   height: 534px;
-  border-radius: 15px;
   padding: 29px 28px 19px;
 }
 
@@ -398,11 +647,18 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.secondNikeArrow {
+  position: absolute;
+  top: 3%;
+  left: 740px;
+}
+
 .nikeCardsThird {
   background-image: url(./img/slidenikeThird.svg);
+  background-repeat: no-repeat;
+  border-radius: 15px;
   width: 387px;
   height: 534px;
-  border-radius: 15px;
   padding: 29px 28px 19px;
 }
 
@@ -414,6 +670,12 @@ nav ul li {
   bottom: -420px;
 }
 
+
+.thirdNikeArrow {
+  position: absolute;
+  top: 3%;
+  left: 1150px;
+}
 
 
 .blondGirl {
@@ -427,6 +689,23 @@ nav ul li {
   margin-right: calc(10.2vw - 26.7px);
   margin-bottom: calc(1.9vw + 54px);
   border-radius: 20px;
+  position: relative;
+}
+
+.specialArrow {
+  position: absolute;
+  right: 10px; 
+  top: 10%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.roundAndArrow {
+  position: absolute;
+  right: 50px; 
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
 
 .blondGirlText {
@@ -442,6 +721,22 @@ nav ul li {
   line-height: 100%;
 }
 
+.blondLines {
+  padding: 0 0 30px;
+  margin-left: 660px;
+}
+
+.coupleSection {
+  position: relative;
+}
+
+.arrowFour {
+  position: absolute;
+  right: 103px; 
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
 
 .coupleText {
   font-size: calc(1.5vw + 18.7px);
@@ -449,11 +744,39 @@ nav ul li {
   margin-bottom: calc(4.2vw + 12px);
 }
 
+.coupleBorder {
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: rgba(190, 190, 190, 1);
+}
+
+.coupleHeart {
+  display: flex;
+  padding: 12px 14px;
+}
+
+.coupleHeart img {
+  width: calc(8.4vw + 134px);
+}
+
 .coupleElements {
   display: flex;
   justify-content: space-between;
+}
+
+.coupleHeartMobile {
+  display: flex;
+  padding: 12px 14px;
+  gap: 100px;
 
 }
+
+
+.sneakersCategoryTwo {
+  display: flex;
+  gap: 20px;
+}
+
 .calcButton {
   display: flex;
   gap: 4px;
@@ -492,13 +815,19 @@ nav ul li {
 
 }
 
-
+.lineBetween {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
 
 .specialCategoryTitle {
   font-size: 40px;
   margin-bottom: 41px;
   color: rgba(62, 62, 62, 1);
 }
+
+
 
 .dealerPreLoved {
   display: flex;
@@ -512,7 +841,7 @@ nav ul li {
   background-image: url(./img/nikeBeige.svg);
   background-position: center;
   background-size: cover;
-  width: calc(23.1vw + 256.7px);
+  width: calc(19.3vw + 312px);
   height: calc(13.7vw + 287.7px);
   border-radius: calc(0.4vw + 7.7px);
 }
@@ -531,14 +860,17 @@ nav ul li {
   font-size: calc(0.7vw + 15.3px);
   color: white;
   text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
 }
+
 
 .preLovedCard {
   padding: calc(2vw + 32.7px) calc(3vw + 12.3px) calc(1.1vw + 35px);
   background-image: url(./img/preLovedGirl.svg);
   background-position: center;
   background-size: cover;
-  width: calc(23.1vw + 256.7px);
+  width: calc(19.3vw + 312px);
   height: calc(13.7vw + 287.7px);
   border-radius: calc(0.4vw + 7.7px);
 }
@@ -557,6 +889,8 @@ nav ul li {
   font-size: calc(0.7vw + 15.3px);
   color: white;
   text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
 }
 
 .sneakersFour {
@@ -623,8 +957,20 @@ nav ul li {
 
 .subscribe {
   display: flex;
-  gap: 7.5px;
+  gap: calc(0.1vw + 5.5px);
 }
+
+.subscribe input {
+  border: 1px;
+  border-radius: 100px;
+  width: calc(4.9vw + 162px);
+  padding-left: 25px;
+}
+
+input::placeholder {
+  color: rgba(217, 217, 217, 1);
+}
+
 
 .subscribe button {
   background-color: rgba(255, 255, 255, 1);
@@ -665,6 +1011,10 @@ nav ul li {
   margin-bottom: 18px;
 }
 
+.footerSupportList {
+  margin-left: 11px;
+}
+
 .footerSupportList ul li {
   font-size: 16px;
   margin-bottom: 10px;
@@ -678,12 +1028,20 @@ nav ul li {
   
 }
 
+
+.footerLine {
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 73px;
+}
+
 .footerDiv {
   display: flex;
   flex-wrap: wrap;
   gap: 120px;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 83px;
+  padding: 0 11px;
   
 }
 
@@ -762,6 +1120,7 @@ nav ul li {
 
 .footerSupportMobileMainDiv {
   display: flex;
+  margin-top: -60px;
   margin-right: 160px;
   margin-bottom: 62px;
 }
@@ -770,6 +1129,13 @@ nav ul li {
 
 .lastFooterDivMobile {
   gap: 30px;
+}
+
+.mobileLineFooter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+  margin-top: -40px;
 }
 
 .lastFooterDivMobile ul li {
@@ -791,12 +1157,25 @@ nav ul li {
     background-position: 81%;
   }
 
+  .discountFirst {
+    display: none;
+  }
+
+  .prelovedhot {
+    display: none;
+  }
+  
+
   .linesMob {
     display: flex;
   }
 
   nav ul {
     display: none;
+  }
+
+  .roundedImages {
+    border-color: orange; /* Оранжевая рамка */
   }
 
   #hearthPhoto {
@@ -811,6 +1190,12 @@ nav ul li {
     order: 1;
   }
   
+  .hotAndHeart {
+    display: none;
+  }
+
+  
+
   .allPhotos {
     grid-template-columns: 1fr 1fr; 
     gap: 10px; 
@@ -851,8 +1236,15 @@ nav ul li {
 
   .blondGirl {
     background-image: url(./img/blondgirlMOB.svg);
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 0;
   }
-
+  .roundAndArrow {
+    display: none;
+  }
+  
   .coupleElements {
     justify-content: center;
     text-align: center;
@@ -903,6 +1295,31 @@ nav ul li {
     display: none;
   }
 
+  .lineBetween {
+   display: none;
+  }
+  .arrowFour {
+    display: none;
+  }
+
+  .footerLine {
+    display: none;
+  }
+
+  .nikeLinesLines {
+    display: none;
+  }
+
+  
+  .blondLines {
+    display: none;
+  }
+
+  .walkHeart {
+    display: none;
+  }
+
+
   .greyButton {
     background: black;
     color: white;
@@ -938,12 +1355,24 @@ nav ul li {
     display: flex;
   }
 
-  .firstSneakersCategory {
+  .coupleHeart {
     display: none;
   }
 
-  .footerSupportListMobile {
-    
+  .firstSneakersCategoryTwo {
+    display: none;
+  }
+  
+  .arrow {
+    display: none;
+  }
+
+  .arrowSecond {
+    display: none;
+  }
+
+  .arrowThird {
+    display: none;
   }
 
 }
@@ -958,9 +1387,81 @@ nav ul li {
     display: none;
   }
 
+  #prelovedRemove {
+    display: none;
+  }
+
+  .arrowSecondMobile {
+    display: none;
+  }
+
+  .arrowMobile {
+    display: none;
+  }
+
+  .arrowThirdMobile {
+    display: none;
+  }
+
+  .nikeRemove {
+    display: none;
+  }
+
+  .lineRemove {
+    display: none;
+  }
+
+  .mobileLineFooter {
+    display: none;
+  }
+
   .lastFooterDivMobile {
     display: none;
   }
+  .radioMob {
+    display: none;
+  }
+
+  #saleTwo {
+    display: none;
+  }
+
+  .hotAndHeartMobilePreloved {
+    display: none;
+  }
+
+  .hotAndHeartMobile {
+    display: none;
+  }
+
+  .discountFirstMobile {
+    display: none;
+  }
+
+  .mobileLines {
+    display: none;
+  }
+
+  .specialArrow {
+    display: none;
+  }
+
+  .pinkHot {
+    display: none;
+  }
+  .mobileProcents {
+    display: none;
+  }
+
+  .prelovedMobile {
+    display: none;
+  }
+  .coupleHeartMobile {
+    display: none;
+
+  }
+
+
 
 
 }
